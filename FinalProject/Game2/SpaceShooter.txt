@@ -1,0 +1,3 @@
+Space Shooter - 
+
+THis will be a space shooter game but I need to get the graphics for it as well as the sound. I would like to adjust the objects to be spaceships and add code to allow a laser to be shot and an explosion to occur aftrer the spaceships are destroyed. 

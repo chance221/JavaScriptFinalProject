@@ -1,0 +1,5 @@
+Chasing Charlie Notes
+
+The purpose of the game is to Chase Charlie oe of the two monsters rendered on the page. I originally planned on having Charlie move around and his partner stand still but I have not completed the process for this yet. The directions are to use the arrow keys to chase down the monsters and if you catch Charlie you get 10 points but if you catch his friend you only get two points.I plan to add more annimation to the game to move the monster objects around and at different speeds. In the future I also want to add sound effects when you catch them and set up a game over scenario. If I can get both to move I may say it is game over if the monster catches you and you only get points if you are able to catch charlie.
+
+Code referenced through http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/ 

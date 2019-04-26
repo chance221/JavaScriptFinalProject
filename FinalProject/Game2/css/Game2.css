@@ -1,0 +1,19 @@
+*{padding: 0;
+    margin:0;
+}
+
+#Game2Canvas{
+        background: url("../media/grid_bg.png");
+        background-repeat: repeat-x; 
+        display: block; 
+        margin: 0 auto;
+        border-style: outset;
+        border-width: 6px;
+        border: white; 
+}
+
+body{
+    background-image:url(../media/tron.jpg);
+    background-position: center;
+}
+

@@ -1,0 +1,168 @@
+/*sets the initial font size*/
+html {font-size: 100%;}/* usually 16px by default*/
+body { font-size: .75em;} /* 12px as it is 75% of the original html defined size}*/
+h1 {font-size: 2.0em;}
+
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*  use em for size or another relative measurement */
+    font-size: 1em;
+    background-image: url("../media/Backgrounds-Black-Grafitti-PPT.jpg");
+    
+    /* size should be should be cover or contain */
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+footer, header{
+    background-color:none;
+    text-shadow: 2px 2px 5px black;
+   /* opacity is optional - if you have a background photo, it will allow the photo to show through the color */
+    opacity: 1;
+    width: 100%;
+    height: 12%;
+}
+
+article{
+   /* use the settings shown below */
+    display: flex;
+    flex-direction:column;
+    height:auto;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    opacity: .8;
+}
+section{
+    flex:1;
+    background-color:none;
+    /*  use % for padding, height and width */
+    padding: 1%;
+    min-width:100%;
+    max-width:100%;
+    min-height:50%;
+   /* opacity is optional - if you have a background photo, it will allow the photo to show through the color */
+    opacity:1.0;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+   /*  use em for size or another relative measurement */
+    font-size: 2.5em;
+    color: white;
+    text-shadow:2px 2px 5px #24A6C9;
+    text-align: center;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   /*  use em for size or another relative measurement */
+    font-size: 1.8em;
+    text-shadow: 2px #24A6C9;
+    /*  use % for width */
+    width: 100%;
+    background-color: black;
+    /* can use pixels for padding */
+    padding: 2px;
+   /* opacity is optional - if you have a background photo, it will allow the photo to show through the color */
+    opacity: 1.0;
+    /*  border-radius should be pixels */
+    border-radius: 50% 20% / 10% 40%;
+}
+nav {
+    margin:0px;
+    width:100%;
+    height:auto;
+}
+nav ul {
+    background: black;
+    /* box-shadow settings can be whatever you want */
+    box-shadow: 6px 6px 6px black;
+    padding: 10px;
+    border-radius: 10px; 
+    list-style: none;
+    position: relative;
+    color: #3E8055;
+    /* font-weight can be whatever you want */
+    font-weight:900;
+}
+nav ul li {
+    display:inline-table;
+    margin:10px;
+    padding:5px;
+    color: #3E8055;
+}
+nav ul li:hover {
+    color: #ADB9B8;
+    /*  font-size should be a relative measurement */
+    font-size: 1em;
+}
+nav ul li a {
+    display: block;
+    /* the padding can be in pixels */ 
+    padding: 5px;
+    color: #1D2527;
+    text-shadow: white;
+    opacity: 1;
+    text-decoration: none;
+}
+nav ul li:hover a {
+    color: purple;
+    text-decoration: none;
+}
+nav ul li:hover > ul {
+    display:flex;
+    flex-direction:column;
+}
+
+nav ul ul {
+    display: none;
+    background: black;
+    /* the border color can be whatever you want */
+    border:2px solid black;
+    border-radius: 0px; 
+    padding: 0px;
+    position: absolute; 
+   /*  font-size should be a relative measurement */
+    font-size: .75em;
+    z-index:10; 
+}
+
+nav ul ul li {
+    display:block;
+    /*  you can adjust the border top and bottom colors to whatever you want */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; 
+    position: relative;
+    text-align: left;
+    background: black;
+}
+nav ul ul li a {
+    padding: 15px;
+    color: blue;
+}     
+nav ul ul li a:hover {
+    background: black;
+    color: blue;
+}
+.lesson {
+    font-size: 1.4em;
+    /* color: white; */
+    text-decoration: none;
+    list-style-type: none;
+    color:black; 
+    font-weight: 300; 
+    text-shadow: 2px 2px 5px #24A6C9;
+    
+}
+.lesson li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 1.0em;
+}
+.lesson li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-size: 1.0em;
+    text-shadow: 2px 2px 2px #24A6C9;
+}
